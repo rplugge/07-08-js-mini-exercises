@@ -6,16 +6,23 @@ var tab3content = "Tab 3 Lorem ipsum dolor sit amet, consectetur adipisicing eli
 
 
 var a = tab1content;
-document.getElementById("tabcontent").innerText = a
+
 
 var b = tab2content;
 
-function changeContent() {
-  if (document.getElementsByClassName("Tab").innerText == "Tab 1") {
+var c = tab3content;
+
+function changeContent(id) {
+  if (id == "Tab1") {
     console.log("It worked!")
-    document.getElementById("tabcontent").innerText = b
+    document.getElementById("tabcontent").innerText = a;
   }
-  else if (document.getElementsByClassName("Tab").innerText == "Tab 2") {
-    
+  else if (id == "Tab2") {
+    document.getElementById("tabcontent").innertext = b;
+  }
+  else if (id == "Tab 3") {
+    document.getElementById("tabcontent").innertext = c;
   }
 }
+
+document.getElementById("tabcontent").innerText = a;
