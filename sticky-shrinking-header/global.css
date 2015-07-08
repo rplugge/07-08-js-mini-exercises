@@ -6,7 +6,7 @@
   top: 80px;
 }
 
-#header {
+.header {
   position: fixed;
   background-color: black;
   color: white;
@@ -18,7 +18,7 @@
   height: 100px;
 }
 
-#header h1{
+.header h1{
   display: inline;
 }
 
@@ -33,6 +33,7 @@
   width: auto;
 }
 
-.header_smaller {
-  height: 50px;
+.header.tiny {
+    height:40px;
+    background: #aaa;
 }
