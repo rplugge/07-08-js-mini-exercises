@@ -1,0 +1,19 @@
+.tab {
+  
+  display: inline;
+  
+}
+
+button {
+  border-radius: 0px;
+}
+
+.tabcontent {
+  position: absolute;
+  
+}
+
+.content {
+  position: relative;
+}
+
