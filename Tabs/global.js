@@ -8,14 +8,14 @@ var tab3content = "Tab 3 Lorem ipsum dolor sit amet, consectetur adipisicing eli
 var a = tab1content;
 document.getElementById("tabcontent").innerText = a
 
-
+var b = tab2content;
 
 function changeContent() {
-  if (document.getElementByClassName("Tab").innerText == "Tab 1") {
+  if (document.getElementsByClassName("Tab").innerText == "Tab 1") {
     console.log("It worked!")
-    document.getElementById("tabcontent").innerText = tab1content
+    document.getElementById("tabcontent").innerText = b
   }
-  else if (document.getElementByClassName("Tab").innerText == "Tab 2") {
+  else if (document.getElementsByClassName("Tab").innerText == "Tab 2") {
     
   }
 }
