@@ -1,19 +1,13 @@
-.tab {
+#areacode{
+  width: 25px;
+}
   
-  display: inline;
   
+#prefix{
+  width: 25px;
 }
-
-button {
-  border-radius: 0px;
+ 
+    
+#meatnpotatoes{
+  width: 35px;
 }
-
-.tabcontent {
-  position: absolute;
-  
-}
-
-.content {
-  position: relative;
-}
-
